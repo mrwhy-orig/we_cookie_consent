@@ -4,8 +4,8 @@ defined('TYPO3') || die('Access denied.');
 call_user_func(
     function () {
 		$rendererRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Resource\Rendering\RendererRegistry::class);
-		$rendererRegistry->registerRendererClass(\Websedit\WeCookieConsent\Resource\Rendering\YouTubeRenderer::class);
-		$rendererRegistry->registerRendererClass(\Websedit\WeCookieConsent\Resource\Rendering\VimeoRenderer::class);
+		//$rendererRegistry->registerRendererClass(\Websedit\WeCookieConsent\Resource\Rendering\YouTubeRenderer::class);
+		//$rendererRegistry->registerRendererClass(\Websedit\WeCookieConsent\Resource\Rendering\VimeoRenderer::class);
 
 	    \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
 	         'WeCookieConsent',
